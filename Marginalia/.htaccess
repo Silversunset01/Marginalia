@@ -1,0 +1,10 @@
+#Redirect main URL to index.html
+DirectoryIndex main.php
+
+#Remove .html extention
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [QSA,L]
+
+#Remove .php extention
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]

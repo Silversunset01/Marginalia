@@ -1,0 +1,97 @@
+.container, .container-fluid {margin-top: 50px; margin-bottom: 20px;}
+
+html {font-size: 14px;}
+
+/*Navigation Bar*/
+.totop {
+	position: relative;
+	float: right;
+	top: -42px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+@media (min-width: 576px) {                  
+   .smShow {
+	  display: none;
+   }
+}
+@media (max-width: 576px) {                  
+   .smHide {
+	  display: none;
+   }
+}
+
+/*bootstrap menu fix*/
+.dropdown-item {
+    padding: 2px 5px;
+}
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    font-size: 0.9rem;
+}
+
+/*Content Styling*/
+blockquote {
+	border-left: 3px solid #e5e5e5;
+    padding: 0 0 0 5px;
+    color: #666666;
+}
+pre {
+	border-left: 3px solid #343a40;
+	padding: 0 0 0 5px;
+	font-family: 'Source Code Pro', monospace;
+	color: #666666;
+	background-color: rgba(229,229,229,0.5);
+}
+code {
+	font-family: 'Source Code Pro', monospace;
+}
+.container h1, .container-fluid h1 {
+	padding-top: 50px;
+	margin-top: -50px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/*Custom Colors*/
+red {color: red;}
+blue {color: blue;}
+green {color: green;}
+orange {color: orange;}
+yellow {color: yellow;}
+purple {color: purple;}
+muted {color: rgba(0,0,0,.5);}
+lead {font-size: 1.25rem; font-weight: 300;}
+spoiler{color: rgba(255,60,231,0)!important;text-shadow: 1px 0 12px #fff,-1px 0 12px #000;transition: 0.5s all;}
+spoiler:hover {color: #000 !important}
+d1 {font-size: 6rem;font-weight: 300;line-height: 1.2;}
+d2 {font-size: 5.5rem;font-weight: 300;line-height: 1.2;}
+d3 {font-size: 4.5rem;font-weight: 300;line-height: 1.2;}
+d4 {font-size: 3.5rem;font-weight: 300;line-height: 1.2;}
+
+/*Custom Table Styling*/
+.container h2, .container-fluid h2, .container h3, .container-fluid h3, .container h4, .container-fluid h4, .container h5, .container-fluid h5, .containerh6, .container-fluid h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	padding-top: 50px;
+	margin-top: -50px;
+}
+.container table, .container-fluid table {
+	padding: 5px;
+}
+.container table, .container-fluid table, .container th, .container-fluid th, .container td, .container-fluid td {
+	border: 1px solid #e5e5e5;
+}
+.container td, .container-fluid td {
+	padding: 5px 10px 5px 5px;
+	font-size: 0.9em;
+}
+.container th, .container-fluid th {
+	padding: 5px 10px 5px 5px;
+	font-size: 1.1em;
+}
+.container img, .container-fluid img {
+	max-width: 600px;
+}
