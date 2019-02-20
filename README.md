@@ -38,7 +38,7 @@ ID | int(11) | | | No | None | AUTO_INCREMENT
 username | varchar(50) | utf8_general_ci | | No | None | 
 password | varchar(255) | utf8_general_ci | | Yes| None | 
 createdAt | timestamp |  | | No | CURRENT_TIMESTAMP | 
-styleOption | varchar(50) | utf8_general_ci | No | style.css
+styleOption | varchar(50) | utf8_general_ci | | No | style.css
 
 # Instructions
 In the future better installation instructions will be written.   
